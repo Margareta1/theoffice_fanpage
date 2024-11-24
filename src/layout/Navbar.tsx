@@ -6,7 +6,7 @@ export const Navbar = () =>{
     const breadcrumbItems: {title:ReactNode}[] = [
         {title: <a href="/home">Home</a>},
         {title: <a href="/cast-and-characters">Cast and characters</a>},
-        {title: <a href="/trivia">Trivia</a>},
+        {title: <a href="/best-episodes">Best episodes</a>},
         {title: <a href="/quiz">Quiz</a>},
     ]
 

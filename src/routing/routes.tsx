@@ -1,5 +1,10 @@
 import { Navigate, createBrowserRouter } from "react-router-dom";
-import { CastAndCharactersPage, HomePage, QuizPage, TriviaPage } from "../pages";
+import {
+  BestEpisodesPage,
+  CastAndCharactersPage,
+  HomePage,
+  QuizPage,
+} from "../pages";
 import { Layout } from "../layout";
 
 export const router = createBrowserRouter([
@@ -10,7 +15,7 @@ export const router = createBrowserRouter([
       { index: true, element: <Navigate to="/home" replace /> },
       { path: "home", element: <HomePage /> },
       { path: "cast-and-characters", element: <CastAndCharactersPage /> },
-      { path: "trivia", element: <TriviaPage /> },
+      { path: "best-episodes", element: <BestEpisodesPage /> },
       { path: "quiz", element: <QuizPage /> },
     ],
   },

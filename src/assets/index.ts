@@ -5,6 +5,7 @@ import { default as TheOfficeBackground2 } from "./the_office_background2.jpg";
 import { default as TheOfficeMSQuote } from "./the_office_ms_quote.jpg";
 import { default as TheOfficeCollage } from "./the_office_collage.png";
 import { default as CastAndCharacters } from "./cast_and_characters.json";
+import { default as BestEpisodes } from "./best_episodes.json";
 
 export {
   TheOfficeLogo,
@@ -14,4 +15,5 @@ export {
   TheOfficeMSQuote,
   TheOfficeCollage,
   CastAndCharacters,
+  BestEpisodes
 };
