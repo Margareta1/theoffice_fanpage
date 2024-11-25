@@ -109,4 +109,17 @@ $title-color: black;
       object-fit: contain;
     }
   }
+
+  .home-h1 {
+    h1,
+    h1 span {
+      font-size: small;
+    }
+  }
+
+  .home-page-container {
+    p {
+      font-size: 14px;
+    }
+  }
 }

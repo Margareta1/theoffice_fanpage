@@ -1,9 +1,24 @@
 import { Collapse } from "antd";
+import { BestEpisodes } from "../assets";
+import { Episode } from "../components/Episode";
+import { EpisodeType } from "../types/types";
+import '../styles/BestEpisodes.scss';
 
 export const BestEpisodesPage = () => {
-  const onChange = (key: string | string[]) => {
-    console.log(key);
-  };
-
-  return <Collapse defaultActiveKey={["1"]} onChange={onChange} />;
+  return (
+    <>
+      <div className="episodes-h1">
+        <h1>
+          <span>TOP 10 BEST EPISODES</span>
+        </h1>
+      </div>
+      <Collapse
+        items={BestEpisodes.best_episodes.map((episode: EpisodeType, index) => ({
+          label: <h3>{index+1}. {episode.title}</h3>,
+          key: index,
+          children: <Episode episode={episode} />,
+        }))}
+      />
+    </>
+  );
 };
