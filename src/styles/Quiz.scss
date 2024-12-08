@@ -1,33 +1,33 @@
-$form-container-background: #2A3C5F;
-$submit-button-background: #EDEFE2;
+$form-container-background: #2a3c5f;
+$submit-button-background: #edefe2;
 
-.quiz-result-image{
-    width:100%
+.quiz-result-image {
+  width: 100%;
 }
 
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
-.question-container{
-    margin:2rem;
+.question-container {
+  margin: 2rem;
 }
 
-.submit-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.submit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
-    .submit-btn{
-        background-color: $submit-button-background;
-    }
+  .submit-btn {
+    background-color: $submit-button-background;
+  }
 }
 
-.form-container{
-    padding:1rem 0;
-    background-color: $form-container-background;
+.form-container {
+  padding: 1rem 0;
+  background-color: $form-container-background;
 }
 
-.radio-answer{
-    color: grey
+.radio-answer {
+  color: grey;
 }

@@ -12,11 +12,17 @@ export const BestEpisodesPage = () => {
         </h1>
       </div>
       <Collapse
-        items={BestEpisodes.best_episodes.map((episode: EpisodeType, index) => ({
-          label: <h3>{index+1}. {episode.title}</h3>,
-          key: index,
-          children: <Episode episode={episode} />,
-        }))}
+        items={BestEpisodes.best_episodes.map(
+          (episode: EpisodeType, index) => ({
+            label: (
+              <h3>
+                {index + 1}. {episode.title}
+              </h3>
+            ),
+            key: index,
+            children: <Episode episode={episode} />,
+          })
+        )}
       />
     </>
   );

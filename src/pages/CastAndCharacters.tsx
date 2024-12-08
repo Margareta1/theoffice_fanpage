@@ -1,9 +1,8 @@
 import { CastAndCharacters } from "../assets";
-import { Image } from 'antd';
+import { Image } from "antd";
 import "../styles/CastAndCharacters.scss";
 
 export const CastAndCharactersPage = () => {
-
   return (
     <div className="card-container">
       {CastAndCharacters.cast_and_characters.map((x) => (

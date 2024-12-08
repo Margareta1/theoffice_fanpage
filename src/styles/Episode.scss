@@ -1,26 +1,25 @@
-.season-episode-div{
-    display: flex;
-    flex-direction: row;
-    font-size: large;
-    gap: 30px;
+.season-episode-div {
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  gap: 30px;
 
-    p > span{
-        font-weight: 500;
-    }
-
+  p > span {
+    font-weight: 500;
+  }
 }
 
-.summary-p{
-    font-size: medium;
+.summary-p {
+  font-size: medium;
 }
 
-.ant-collapse-expand-icon{
-    align-self: center;
+.ant-collapse-expand-icon {
+  align-self: center;
 }
 
-.ant-image{
-    width: 100%;
-    object-fit: cover;
-    overflow: hidden;
-    align-self: center;
+.ant-image {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  align-self: center;
 }

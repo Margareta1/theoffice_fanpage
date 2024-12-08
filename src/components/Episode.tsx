@@ -7,7 +7,6 @@ interface EpisodeProps {
 }
 
 export const Episode: React.FC<EpisodeProps> = ({ episode }) => {
-  console.log(episode);
   return (
     <div>
       <div className="season-episode-div">
@@ -34,8 +33,12 @@ export const Episode: React.FC<EpisodeProps> = ({ episode }) => {
 
       <div className="season-episode-div">
         <p>
-          <span>{Array.isArray(episode.writer) ? 'Writers: ' : 'Writer: '}</span>
-          {Array.isArray(episode.writer) ? episode.writer.join(', ') : episode.writer}
+          <span>
+            {Array.isArray(episode.writer) ? "Writers: " : "Writer: "}
+          </span>
+          {Array.isArray(episode.writer)
+            ? episode.writer.join(", ")
+            : episode.writer}
         </p>
         <p>
           <span>Director: </span>
