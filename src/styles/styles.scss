@@ -1,6 +1,6 @@
 $title-color: black;
 
-.episodes-h1 {
+.custom-h1 {
   color: $title-color;
 
   h1 {
@@ -38,7 +38,7 @@ $title-color: black;
 }
 
 @media (max-width: 800px) {
-  .episodes-h1 {
+  .custom-h1 {
     h1,
     h1 span {
       font-size: small;

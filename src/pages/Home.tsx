@@ -24,7 +24,7 @@ export const HomePage = () =>{
                 interviews, or “confessionals,” in which characters speak directly to the camera.
             </p>
         </div>
-        <div className="home-h1">
+        <div className="custom-h1">
                <h1><span>The making of</span></h1>
         </div>
         <div className="home-page-history">

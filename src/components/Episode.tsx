@@ -1,5 +1,6 @@
 import { EpisodeType } from "../types/types";
 import "../styles/Episode.scss";
+import { Image } from "antd";
 
 interface EpisodeProps {
   episode: EpisodeType;
@@ -29,11 +30,11 @@ export const Episode: React.FC<EpisodeProps> = ({ episode }) => {
       </div>
       <p className="summary-p">{episode.summary}</p>
 
-      <img src={episode.image_source} alt="img" className="episode-img" />
+      <Image src={episode.image_source} alt="img" className="episode-img" />
 
       <div className="season-episode-div">
         <p>
-          <span>Writer: </span>
+          <span>{Array.isArray(episode.writer) ? 'Writers: ' : 'Writer: '}</span>
           {Array.isArray(episode.writer) ? episode.writer.join(', ') : episode.writer}
         </p>
         <p>

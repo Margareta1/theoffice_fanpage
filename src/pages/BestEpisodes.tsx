@@ -2,12 +2,11 @@ import { Collapse } from "antd";
 import { BestEpisodes } from "../assets";
 import { Episode } from "../components/Episode";
 import { EpisodeType } from "../types/types";
-import '../styles/BestEpisodes.scss';
 
 export const BestEpisodesPage = () => {
   return (
     <>
-      <div className="episodes-h1">
+      <div className="custom-h1">
         <h1>
           <span>TOP 10 BEST EPISODES</span>
         </h1>

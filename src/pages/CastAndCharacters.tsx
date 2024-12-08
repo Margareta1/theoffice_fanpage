@@ -1,4 +1,5 @@
 import { CastAndCharacters } from "../assets";
+import { Image } from 'antd';
 import "../styles/CastAndCharacters.scss";
 
 export const CastAndCharactersPage = () => {
@@ -10,7 +11,7 @@ export const CastAndCharactersPage = () => {
           <p className="h2">{x.character}</p>
           <p>Played by {x.actor}</p>
           <p>{x.role_description}</p>
-          <img src={x.image_source} alt="img" className="cast-img" />
+          <Image src={x.image_source} alt="img" className="cast-img" />
           <blockquote className="quote">
             <p>{x.quote}</p>
             <cite> - {x.character}</cite>
