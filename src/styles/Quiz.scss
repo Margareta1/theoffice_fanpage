@@ -13,21 +13,21 @@ h2 {
   margin: 2rem;
 }
 
-.submit-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-  .submit-btn {
-    background-color: $submit-button-background;
-  }
-}
-
 .form-container {
   padding: 1rem 0;
   background-color: $form-container-background;
-}
+  
+  .radio-answer {
+    color: grey;
+  }
+  
+  .submit-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
-.radio-answer {
-  color: grey;
+    .submit-btn {
+      background-color: $submit-button-background;
+    }
+  }
 }

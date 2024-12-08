@@ -5,7 +5,7 @@ export const HomePage = () => {
   return (
     <div className="home-page-container">
       <img src={TheOfficeCover} />
-      <div className="home-h1">
+      <div className="custom-h1">
         <h1>
           The Office <span>Welcome to the fanpage</span>
         </h1>
